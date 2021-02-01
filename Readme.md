@@ -1,4 +1,4 @@
-# Purose
+# Purpose
 
 This explains the bug reported in https://github.com/microsoft/vcpkg/issues/12906.
 
