@@ -1,6 +1,15 @@
 # Purose
 
-This explains the bug reported in (https://github.com/microsoft/vcpkg/issues/12906)[https://github.com/microsoft/vcpkg/issues/12906].
+This explains the bug reported in https://github.com/microsoft/vcpkg/issues/12906.
+
+# Project Structure and Dependencies:
+
+```
+root/
+├─ foo/           # Shared Library. Dependencies: VTK
+├─ bar/           # Shared Library. Dependencies: VTK
+├─ application/   # Executable. Dependencies: Foo, Bar, VTK
+```
 
 # How To Reproduce
 
